@@ -15,3 +15,12 @@ hooks:
   # Silly check that always passes
   always_pass:
     nice: "yup"
+
+  # Notify label change
+  label_change:
+    labels:
+      - "Needs Followup"
+      - "Ready to Merge"
+      - "Need Review"
+      - "Needs Review"
+      - "Question"
